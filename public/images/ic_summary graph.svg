@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>slice/ic_summary graph</title>
+    <g id="slice/ic_summary-graph" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M5.65759549,6.13958369 C5.77239583,5.26111147 7.15,5.30104202 7.15,6.25937536 L7.15,18.7493754 L20.1065534,18.7469777 C20.4862491,18.746894 20.8001065,19.0289786 20.8498497,19.3950433 L20.8567188,19.4968123 C20.8567188,19.9110258 20.5210977,20.2468863 20.1068841,20.2469777 L6.40016537,20.25 C5.98588724,20.25 5.65,19.9142781 5.65,19.5 L5.65,6.25937536 L5.65759549,6.13958369 Z" id="Path-3" fill="#2F2F2F" fill-rule="nonzero"></path>
+        <rect id="Rectangle-9" fill="#2F2F2F" opacity="0.598005022" transform="translate(10.000000, 16.138909) scale(1, -1) translate(-10.000000, -16.138909) " x="8.8" y="14.8119863" width="2.4" height="2.65384615" rx="0.971999981"></rect>
+        <rect id="Rectangle-9" fill="#2F2F2F" opacity="0.819405692" transform="translate(13.600000, 15.008140) scale(1, -1) translate(-13.600000, -15.008140) " x="12.4" y="12.4119863" width="2.4" height="5.19230769" rx="0.971999981"></rect>
+        <rect id="Rectangle-9" fill="#2F2F2F" transform="translate(17.200000, 12.103902) scale(1, -1) translate(-17.200000, -12.103902) " x="16" y="6.64966487" width="2.4" height="10.9084752" rx="0.971999981"></rect>
+    </g>
+</svg>
