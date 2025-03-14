@@ -2,6 +2,7 @@ import * as React from "react";
 import * as Checkbox from "@radix-ui/react-checkbox";
 import * as Label from "@radix-ui/react-label";
 import { CheckIcon } from "@radix-ui/react-icons";
+import { useNavigate } from "react-router-dom";
 
 export function IRMIntro() {
     const speedometerSrc = '/images/ic_speedometer.svg';
@@ -72,7 +73,7 @@ export function IRMIntro() {
     )
   }
 
-  export function LoginForm() {
+  export function LoginForm({ handleLogin }) {
     const [credentials, setCredentials] = React.useState({
       username: "",
       password: ""
@@ -93,7 +94,8 @@ export function IRMIntro() {
       }));
       setError("");
     };
-  
+    const navigate = useNavigate();
+
     const handleSubmit = (e) => {
       e.preventDefault();
       
@@ -104,7 +106,12 @@ export function IRMIntro() {
       if (isValidCredential) {
         // Successfully logged in
         setError("Login successful!");
-        // 這裡可以導向到應用的主頁面
+        localStorage.setItem("user", JSON.stringify({ 
+          username: credentials.username,
+          isAuthenticated: true
+          }));
+        handleLogin();
+        navigate("/dashboard");
       } else {
         setError("Invalid username or password");
       }

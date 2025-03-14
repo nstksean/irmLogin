@@ -2,7 +2,7 @@ import LoginHeader from "./loginHeader"
 import {IRMIntro, LoginForm } from "./loginBody"
 
 
-export default function LoginPage() {
+export default function LoginPage({ handleLogin }) {
     
     return (
       <div className="">
@@ -11,7 +11,7 @@ export default function LoginPage() {
           <div className="max-w-6xl mx-auto w-full bg-blue-50 rounded-lg overflow-hidden">
             <div className="grid md:grid-cols-2 gap-8 p-8">
               <IRMIntro/>
-              <LoginForm/>
+              <LoginForm handleLogin={handleLogin}/>
             </div>
           </div>
         </main>
