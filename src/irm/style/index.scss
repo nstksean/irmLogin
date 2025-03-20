@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .svg-blue {
     filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%) !important;
